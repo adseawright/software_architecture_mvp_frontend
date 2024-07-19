@@ -10,8 +10,8 @@ Download tar file from https://drive.google.com/drive/folders/1BsSmDIBcSMG6hxnN9
 ### Docker Setup
 1. Build and run the Docker container:
     ```sh
-    docker build -t my-project-frontend .
-    docker run -p 3000:3000 my-project-frontend
+    docker build -t jrpreneur-frontend .
+    docker run -p 3000:3000 jrpreneur-frontend
     ```
 
 ## Usage Instructions
