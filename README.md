@@ -1,30 +1,11 @@
 # software_architecture_mvp_frontend
 
 ## Description
- Frontend for Kids to Sell Products Online - This is the frontend for my MVP project in the Software Architecture course at PUC-Rio. Developed with React, it allows users to manage profiles, stores, and products, and facilitates online shopping. It communicates with the backend API and is containerized with Docker.
+Frontend for Kids to Sell Products Online - This is the frontend for my MVP project in the Software Architecture course at PUC-Rio. Developed with React, it allows users to manage profiles, stores, and products, and facilitates online shopping. It communicates with the backend API and is containerized with Docker.
 
 ## Installation Instructions
 
-### Prerequisites
-- Node.js
-- Docker
-
-### Setup
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/software_architecture_mvp_frontend.git
-    cd software_architecture_mvp_frontend
-    ```
-
-2. Install dependencies:
-    ```sh
-    npm install
-    ```
-
-3. Run the server:
-    ```sh
-    npm start
-    ```
+Download tar file from https://drive.google.com/drive/folders/1BsSmDIBcSMG6hxnN9cuVQA3H3luvr_HX?usp=drive_link
 
 ### Docker Setup
 1. Build and run the Docker container:
@@ -34,6 +15,6 @@
     ```
 
 ## Usage Instructions
-1. Ensure the backend server is running.
-2. Ensure the frontend server is running.
+1. Run the backend server.
+2. Run the frontend server.
 3. Open the browser and navigate to `http://localhost:3000`.
