@@ -1,0 +1,80 @@
+/* Register.css */
+body.register-page {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: url('/public/images/svgomg_signup_bkg.svg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container {
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+  top: -160px;
+}
+
+.register-container h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.register-container input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #043c9a;
+  border-radius: 5px;
+  font-size: 1.25rem;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 15px;
+  background: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.register-container button:hover {
+  background: #45a049;
+}
+
+.register-container p {
+  text-align: center;
+}
+
+.register-container p a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.register-container p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .register-container {
+      width: 80%;
+      top: -70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-container {
+      width: 90%;
+      top: -50px;
+  }
+}

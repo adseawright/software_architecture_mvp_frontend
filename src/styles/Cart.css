@@ -1,0 +1,86 @@
+/* Cart.css */
+
+/* Apply a clean and modern font */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Style the main container */
+.cart-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+h2 {
+  color: #343a40;
+  text-align: center;
+}
+
+/* Style the cart items list */
+.cart-items-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-items-list li {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-items-list li:last-child {
+  border-bottom: none;
+}
+
+/* Style the cart item details */
+.cart-item-name {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.cart-item-description {
+  margin-bottom: 10px;
+  color: #6c757d;
+}
+
+.cart-item-price {
+  color: #28a745;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the buttons */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.remove-from-cart {
+  background-color: #dc3545;
+  color: white;
+  margin-right: 10px;
+}
+
+button.checkout {
+  background-color: #28a745;
+  color: white;
+}
+
+button.remove-from-cart:hover, button.checkout:hover {
+  opacity: 0.8;
+}

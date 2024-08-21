@@ -1,0 +1,44 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.navigation-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-icon {
+  cursor: pointer;
+}
+
+.nav-icon img {
+  width: 50px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li {
+  cursor: pointer;
+}

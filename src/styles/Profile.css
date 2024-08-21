@@ -1,0 +1,197 @@
+/* Profile.css */
+/* Green 4CAF50 */
+body.profile-page {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #87CEEB 66%, #4CAF50 34%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+body.profile-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/public/images/stand_bkg.svg') no-repeat center center fixed;
+  z-index: 0;
+}
+
+.profile-page {
+  padding-top: 10%; /* Add padding to push content down */
+}
+
+.profile-container {
+  position: relative;
+  z-index: 1;
+  max-width: 450px;
+  margin: 0 auto; /* Center align */
+  text-align: center;
+}
+
+.navbar-container {
+  position: relative;
+  z-index: 1;
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.welcome-box, .store-box, .navigation-box, .profile-crud, .store-crud, .product-crud {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.welcome-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.welcome-box .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.store-box, .profile-crud, .store-crud, .product-crud {
+  height: auto;
+}
+
+.store-box .store-image, .store-crud .store-image, .product-crud .store-image {
+  position: relative;
+  height: 100%;
+}
+
+.store-box h4, .store-box input, .store-crud h4, .store-crud input, .product-crud h4, .product-crud input {
+  position: relative;
+  width: 80%;
+  text-align: center;
+  background: transparent;
+  border: none;
+  font-size: 1rem; /* Adjust font size */
+  font-weight: bold;
+  margin: 0 auto;
+  top: 30%; /* Adjust top position */
+  transform: translateY(-30%); /* Center vertically */
+}
+
+.store-crud h4 {
+  margin-bottom: 20px; /* Add margin to store name */
+}
+
+.store-box input, .store-crud input, .product-crud input {
+  outline: none;
+  border-bottom: 2px solid #ff6700;
+}
+
+.store-box img, .store-crud img, .product-crud img {
+  width: 100%;
+  height: auto;
+}
+
+.navigation-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: 450px;
+  margin: 20px auto 0 auto; /* Adjust positioning */
+}
+
+.navigation-box .nav-icon {
+  cursor: pointer;
+}
+
+.navigation-box .nav-icon img {
+  width: 50px;
+  height: 50px; /* Adjust the height to maintain aspect ratio */
+  object-fit: contain; /* Prevent stretching */
+}
+
+.message {
+  color: red;
+}
+
+.profile-crud, .store-crud, .product-crud {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Maintain the same height */
+}
+
+.profile-crud .form-group, .store-crud .form-group, .product-crud .form-group {
+  margin-bottom: 5px; /* Reduce margin between input boxes */
+}
+
+.product-crud .form-group:first-of-type input {
+  margin-top: 20px; /* Add margin to the first input box */
+}
+
+.profile-crud input, .store-crud input, .product-crud input {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0; /* Reduce margin between input boxes */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem; /* Adjust font size */
+}
+
+.profile-crud button, .store-crud button, .product-crud button {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.update-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.create-button {
+  background-color: #ff6700;
+  color: white;
+}
+
+.product-list {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.product-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.product-list li button {
+  margin-left: 10px;
+}

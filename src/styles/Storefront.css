@@ -1,0 +1,93 @@
+/* Storefront.css */
+
+/* Apply a clean and modern font */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Style the main container */
+.storefront-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+h2 {
+  color: #343a40;
+  text-align: center;
+}
+
+/* Style the product list */
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-list li:last-child {
+  border-bottom: none;
+}
+
+/* Style the product details */
+.product-name {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.product-description {
+  margin-bottom: 10px;
+  color: #6c757d;
+}
+
+.product-price {
+  color: #28a745;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the buttons */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.add-to-cart {
+  background-color: #007bff;
+  color: white;
+  margin-right: 10px;
+}
+
+button.go-to-cart {
+  background-color: #6c757d;
+  color: white;
+}
+
+button.add-to-cart:hover, button.go-to-cart:hover {
+  opacity: 0.8;
+}
+
+/* Align buttons to the right */
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
